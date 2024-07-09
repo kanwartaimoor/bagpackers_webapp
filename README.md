@@ -18,10 +18,7 @@
 
 4. `EDITOR=vim rails credentials:edit` => (Copy paste the next lines)
 ***
-`stripe:
-  development:
-    publishable_key: 'pk_test_K7zdMSeymVJ9DlCyPxPY2Skd00j6IJX7ZX'
-    secret_key: 'sk_test_m6E9WtDjb4lpaIo7FQnYtTcu008Um2ym8O'`
+
 ***
 Press escape then type <:wq> 
 
