@@ -1,5 +1,0 @@
-<% js = escape_javascript(
-  render(partial: 'blogs/blog', locals: { blogs: @blogs , col: "6"})
-) %>
-$("#filterrific_results").html("<%= js %>");
-$(".pagination-content").html("<%= escape_javascript js_will_paginate @blogs %>");
